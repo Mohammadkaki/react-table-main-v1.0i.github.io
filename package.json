@@ -1,10 +1,9 @@
 {
-  "homepage": "https://Mohammadkaki/react-table-main-v1.0i.github.io",
+  "homepage": "https://Mohammadkaki.github.io/react-table-main-v1.0i.github.io/",
   "name": "react-table",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
