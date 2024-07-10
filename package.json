@@ -2,14 +2,11 @@
   "name": "react-table",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mohammadkaki.github.io/react-table-main-v1.0i.github.io/react-gh-pages",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
