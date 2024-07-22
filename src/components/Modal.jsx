@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "react-datepicker/dist/react-datepicker.css";
 
 import "./Modal.css";
@@ -13,9 +13,11 @@ export const Modal = ({ closeModal, onSubmit, defaultValue }) => {
       
     }
   );
+  localStorage.setItem("formState", JSON.stringify(formState));
+  console.log(formState);
   const [errors, setErrors] = useState("");
 
-
+ localStorage.setItem("errors", JSON.stringify(errors));
   const validateForm = () => {
     if (formState.date && formState.description && formState.status && formState.cantidad ) {
       setErrors("");
