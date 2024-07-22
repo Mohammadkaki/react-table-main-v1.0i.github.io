@@ -48,6 +48,11 @@ export const Modal = ({ closeModal, onSubmit, defaultValue }) => {
     closeModal();
   };
 
+  useEffect(() => {
+  // storing input name
+  localStorage.setItem("formState", JSON.stringify(formState));
+}, [formState]);
+
   return (
     <div
       className="modal-container"
