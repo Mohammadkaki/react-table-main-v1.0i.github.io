@@ -54,7 +54,7 @@ function App() {
 
     
     <div className="App">
-      <h1 className="h1">Control de helado</h1>
+      <h1 className="h1">Control de heladoo</h1>
       <Table rows={rows} deleteRow={handleDeleteRow} editRow={handleEditRow} />
       <button onClick={() => setModalOpen(true)} className="btn">
         Add
